@@ -14,10 +14,12 @@
 	- `git checkout -b <NAME>` : same using checkout
 
 ## Pull Requests
-
+- Also see branch delete above
 - `git log --oneline --graph --all` : show you git history
 - `git fetch --prune` : clean up your git history
 
 ## Conflicts
 
 - `git rebase <BRANCH>` : e.g., `<MAIN>` will update current branch
+You won't know it's going to happen until it does.
+
