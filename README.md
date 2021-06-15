@@ -17,3 +17,7 @@
 
 - `git log --oneline --graph --all` : show you git history
 - `git fetch --prune` : clean up your git history
+
+# conflicts
+
+- `git rebase <BRANCH>` : e.g., `<MAIN>` will update current branch
