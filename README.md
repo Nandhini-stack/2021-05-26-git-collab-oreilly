@@ -2,7 +2,7 @@
 
 - `git clone <URL>` : downloads the repository to current directory
 
-# branches
+## Branches
 
 - `git branch <NAME>` : create branch
 - `git branch -a` : list all branches
@@ -13,11 +13,13 @@
 - `git switch -c <NAME>` : create and switch to branch 1 command
 	- `git checkout -b <NAME>` : same using checkout
 
-# pull requests
-
+## Pull Requests
+- Also see branch delete above
 - `git log --oneline --graph --all` : show you git history
 - `git fetch --prune` : clean up your git history
 
-# conflicts
+## Conflicts
 
 - `git rebase <BRANCH>` : e.g., `<MAIN>` will update current branch
+You won't know it's going to happen until it does.
+
